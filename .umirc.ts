@@ -15,9 +15,9 @@ export default defineConfig({
           component: '@/pages/Home/index',
         },
         {
-          path: '/home2',
+          path: '/market',
           title: 'Keey',
-          component: '@/pages/Home2/index',
+          component: '@/pages/Market/index',
         },
       ],
     },

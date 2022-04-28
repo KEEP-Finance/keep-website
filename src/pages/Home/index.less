@@ -1,3 +1,56 @@
 .title {
   background: rgb(121, 242, 157);
 }
+:global {
+  .detail {
+    height: 0;
+    padding-bottom: 40%;
+    margin: 0 0 2em;
+    background-image: url(https://public-619e3.firebaseapp.com/Death-Star/detail_sml.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+  @media (min-width: 120em) and (-webkit-min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+    .detail {
+      background-image: url(https://public-619e3.firebaseapp.com/Death-Star/detail_sml@2x.jpg);
+    }
+  }
+  @media (min-width: 64em) {
+    .detail {
+      background-image: url(https://public-619e3.firebaseapp.com/Death-Star/detail_med.jpg);
+    }
+  }
+  @media (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+    .detail {
+      background-image: url(https://public-619e3.firebaseapp.com/Death-Star/detail_med@2x.jpg);
+    }
+  }
+  @media (min-width: 85.375em) {
+    .detail {
+      background-image: url(https://public-619e3.firebaseapp.com/Death-Star/detail_lrg.jpg);
+    }
+  }
+  @media (min-width: 85.375em) and (-webkit-min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+    .detail {
+      background-image: url(https://public-619e3.firebaseapp.com/Death-Star/detail_lrg@2x.jpg);
+    }
+  }
+  @media (min-width: 120em) {
+    .detail {
+      background-image: url(https://public-619e3.firebaseapp.com/Death-Star/detail_xlrg.jpg);
+    }
+  }
+  @media (min-width: 120em) and (-webkit-min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+    .detail {
+      background-image: url(https://public-619e3.firebaseapp.com/Death-Star/detail_lrg@2x.jpg);
+    }
+  }
+}
