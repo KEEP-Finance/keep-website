@@ -41,7 +41,7 @@ export default function IndexPage() {
     var town = new THREE.Object3D();
 
     var createCarPos = true;
-    var uSpeed = 0.0005;
+    var uSpeed = 0.0001;
 
     //----------------------------------------------------------------- FOG background
 
@@ -283,7 +283,7 @@ export default function IndexPage() {
 
     var generateLines = function () {
       for (var i = 0; i < 60; i++) {
-        createCars(0.1, 20);
+        createCars(0.1, 10);
       }
     };
 
@@ -317,8 +317,8 @@ export default function IndexPage() {
         //object.rotation.z = (Math.cos((time/object.rotationValue) * Math.PI / 180) * 180);
       }
 
-      smoke.rotation.y += 0.01;
-      smoke.rotation.x += 0.01;
+      smoke.rotation.y += 0.001;
+      smoke.rotation.x += 0.001;
 
       camera.lookAt(city.position);
       renderer.render(scene, camera);

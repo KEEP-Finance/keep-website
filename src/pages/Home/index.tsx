@@ -38,10 +38,10 @@ const IndexPage = () => {
       </svg>
       <Logo
         style={{
-          width: '150px',
+          width: '120px',
           position: 'absolute',
-          top: '30px',
-          left: '30px',
+          top: '50px',
+          left: '100px',
           zIndex: 99,
         }}
       />
