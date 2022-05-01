@@ -31556,6 +31556,13 @@
                 x2: 947.9307,
                 y2: 560.0918,
               }),
+              hc.a.createElement('line', {
+                className: 'st26',
+                x1: 766.7813,
+                y1: 281.2749,
+                x2: 947.9307,
+                y2: 560.0918,
+              }),
               hc.a.createElement(
                 'text',
                 { x: 201.874, y: 321.1885, fill: '#f9be03' },
