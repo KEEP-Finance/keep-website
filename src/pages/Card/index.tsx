@@ -284,6 +284,7 @@ export default function IndexPage() {
     var generateLines = function () {
       for (var i = 0; i < 2; i++) {
         createCars(0.1, 10);
+        createCars(-0.1, 10);
       }
     };
 

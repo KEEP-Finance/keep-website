@@ -35722,7 +35722,7 @@
                 a.add(o);
             },
             N = function () {
-              for (var e = 0; e < 2; e++) x(0.1, 10);
+              for (var e = 0; e < 2; e++) x(0.1, 10), x(-0.1, 10);
             },
             O = function t() {
               Date.now();
@@ -36550,7 +36550,7 @@
                 children: [
                   Object(m['jsx'])('a', {
                     href: '#',
-                    title: 'WhilePaper',
+                    title: 'WhitePaper',
                     children: Object(m['jsx'])(Ue, {}),
                   }),
                   Object(m['jsx'])('a', {
@@ -36565,6 +36565,11 @@
                   }),
                   Object(m['jsx'])('a', {
                     href: '#',
+                    title: 'Telegram',
+                    children: Object(m['jsx'])(Me, {}),
+                  }),
+                  Object(m['jsx'])('a', {
+                    href: '#',
                     title: 'Discord',
                     children: Object(m['jsx'])(te, {}),
                   }),
@@ -36575,16 +36580,12 @@
                   }),
                   Object(m['jsx'])('a', {
                     href: '#',
-                    title: 'Telegram',
-                    children: Object(m['jsx'])(Me, {}),
-                  }),
-                  Object(m['jsx'])('a', {
-                    href: '#',
                     title: 'Youtube',
                     children: Object(m['jsx'])(Le, {}),
                   }),
                 ],
               }),
+              Object(m['jsx'])('div', { className: 'blockauto' }),
             ],
           })
         );

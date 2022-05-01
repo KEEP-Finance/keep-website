@@ -92,7 +92,7 @@ const IndexPage = () => {
       )}
 
       <div className={styles.connect}>
-        <a href="#" title="WhilePaper">
+        <a href="#" title="WhitePaper">
           <Paper />
         </a>
         <a href="#" title="Github">
@@ -101,19 +101,20 @@ const IndexPage = () => {
         <a href="#" title="Twitter">
           <Twitter />
         </a>
+        <a href="#" title="Telegram">
+          <Telegram />
+        </a>
         <a href="#" title="Discord">
           <Discord />
         </a>
         <a href="#" title="Medium">
           <Medium />
         </a>
-        <a href="#" title="Telegram">
-          <Telegram />
-        </a>
         <a href="#" title="Youtube">
           <Youtube />
         </a>
       </div>
+      <div className="blockauto"></div>
     </div>
   );
 };
