@@ -11,12 +11,12 @@ export default defineConfig({
       routes: [
         {
           path: '/',
-          title: 'Keey',
+          title: 'Keep Finance',
           component: '@/pages/Home/index',
         },
         {
           path: '/market',
-          title: 'Keey',
+          title: 'Keep Finance',
           component: '@/pages/Market/index',
         },
       ],

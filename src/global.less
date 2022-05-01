@@ -18,9 +18,49 @@ html {
   font-size: 6px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Montserrat', sans-serif;
   overflow: hidden;
+  font-family: 'Merriweather', serif;
 }
+.h11 {
+  position: absolute;
+  // color: white;
+  bottom: -1%;
+  // width: 100%;
+  font-family: 'Merriweather';
+}
+ul {
+  margin: 0 auto;
+}
+ul li {
+  position: relative;
+  list-style: none;
+}
+ul li span {
+  font-size: 4em;
+  text-decoration: none;
+  letter-spacing: 2px;
+  line-height: 1em;
+  color: #ffffff;
+  // text-transform: uppercase;
+  // color: transparent;
+  // -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+}
+ul li span::before {
+  content: attr(data-text);
+  position: absolute;
+  color: #ffc000;
+  width: 0;
+  overflow: hidden;
+  transition: 1s;
+  border-right: 8px solid #ffc000;
+  -webkit-text-stroke: 1px #ffc000;
+}
+ul li span:hover::before {
+  color: #ffc000;
+  width: 100%;
+  filter: drop-shadow(0 0 25px #ffc000);
+}
+
 @media (min-width: 860px) {
   body,
   html {
@@ -560,6 +600,11 @@ html {
 @keyframes animation_bfcj4x {
   to {
     stroke-dashoffset: -10;
+  }
+}
+@keyframes animation_bfcj4x1 {
+  to {
+    stroke-dashoffset: 10;
   }
 }
 @-webkit-keyframes airplaneHovering {
