@@ -2205,9 +2205,9 @@
 
 
 	<circle class="icon-circle-first" opacity="0.2" fill="#F9BE03" cx="240.301" cy="366.13" r="35"/>
-	<circle class="icon-circle-first" opacity="0.2" fill="#575756" cx="1077.128" cy="329.968" r="35"/>
+	<circle class="icon-circle-first" opacity="1" fill="#2775ca" cx="1077.128" cy="329.968" r="35"/>
 	<circle class="icon-circle-first" opacity="0.2" fill="#8ECE29" cx="483.63" cy="268.584" r="35"/>
-	<circle class="icon-circle-first" opacity="0.2" fill="#23BCF9" cx="756.634" cy="254.966" r="35"/>
+	<circle class="icon-circle-first" opacity="0.2" fill="#50af95" cx="756.634" cy="254.966" r="35"/>
 	<!--
   <circle class="icon-circle-first software" opacity="0.2" fill="#D2BD98" cx="670.908" cy="374.85" r="35"/>
 	<circle class="icon-circle software" opacity="0.2" fill="#D2BD98" cx="670.908" cy="374.85" r="35"/>
@@ -2336,7 +2336,7 @@
 		<path class="st42" d="M669.1807,319.0684h-7.4004v-12.8496h7.4004v2.2324h-4.6758v2.8213h4.3516v2.2324h-4.3516v3.3135h4.6758
 			V319.0684z"/>
 	</g> -->
-	<text x="615.6299" y="312.626" fill="#8ece29">USDH</text>
+	<text x="615.6299" y="312.626" fill="#ffc000">USDH</text>
 	<image xlink:href="/usdh.svg" x="646" y="340" height="50px" width="50px"/>
 	<path class="st53" d="M858.4297,364.5322"/>
 	<path class="st53" d="M779.5977,281.3657"/>
@@ -2473,7 +2473,8 @@
 	<line class="st21" x1="257.6182" y1="396.5449" x2="278.4893" y2="422.5923"/>
 	<line class="st26" x1="999.0459" y1="335.9111" x2="1084.8203" y2="552.7529"/>
 	<line class="st26" x1="966.7813" y1="341.2749" x2="947.9307" y2="560.0918"/>
-	<line class="st26" x1="766.7813" y1="281.2749" x2="947.9307" y2="560.0918"/>
+	<line class="st261" x1="766.7813" y1="281.2749" x2="947.9307" y2="560.0918"/>
+	<line class="st261" x1="766.7813" y1="281.2749" x2="847.9307" y2="660.0918"/>
 	<!-- <g class="banking icon">
 		<path class="st38" d="M161.874,291.1885h3.1777c1.4746,0,2.541,0.2148,3.1973,0.6445c0.6572,0.4297,0.9854,1.1084,0.9854,2.0361
 			c0,0.625-0.1611,1.145-0.4834,1.5601s-0.7861,0.6763-1.3916,0.7837v0.0732c0.752,0.1416,1.3047,0.4209,1.6592,0.8389
@@ -2561,8 +2562,8 @@
 			c0,1.3086,0.2998,2.3032,0.8975,2.9849c0.5986,0.6807,1.459,1.0215,2.582,1.0215c0.5664,0,1.1719-0.0708,1.8164-0.2124v-2.7612
 			h-2.2197V314.0884z"/>
 	</g> -->
-	 <text x="201.874" y="321.1885" fill="#f9be03">ETH</text>
-	 <text x="1120.1221" y="280.8267" fill="#8ece29">USDC</text>
+	 <text x="201.874" y="321.1885" opacity="0.2" fill="#F9BE03">ETH</text>
+	 <text x="1120.1221" y="280.8267" fill="#2775ca">USDC</text>
 
 
 	<!-- <g class="transport icon">
@@ -2670,6 +2671,6 @@
 			s-0.9912-0.3955-1.7871-0.3955h-1.1572V203.0049z"/>
 		<path class="st29" d="M835.0537,208.7324h-1.751v-9.2065h-3.1484v-1.5015h8.0488v1.5015h-3.1494V208.7324z"/>
 	</g> -->
-	<text x="807.2295" y="208.7324" fill="#23bcf9">USDT</text>
+	<text x="807.2295" y="208.7324" fill="#50af95">USDT</text>
 </g>
 </svg>

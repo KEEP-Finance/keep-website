@@ -17,7 +17,7 @@ export default function IndexPage() {
     }
     //---
 
-    document.body.appendChild(renderer.domElement);
+    document.getElementById('second').appendChild(renderer.domElement);
 
     window.addEventListener('resize', onWindowResize, false);
     function onWindowResize() {
@@ -330,7 +330,7 @@ export default function IndexPage() {
     animate();
   }, []);
   return (
-    <div className={styles.market}>
+    <div id="second" className={styles.market}>
       <div className="container-fluid fixed-top header disable-selection">
         <div className="row">
           <div className="col"></div>
@@ -338,9 +338,12 @@ export default function IndexPage() {
             <div className="row">
               <div className="col">
                 <h1>
-                  <strong>Lab City 3D</strong>
+                  <strong>Decentralized Lending and Borrowing</strong>
                 </h1>
-                <p className="small">– Back to the red –</p>
+                <p className="small">
+                  <span>——</span> Keep Profitable by Algorithmic Market
+                  Operations <span>——</span>
+                </p>
               </div>
             </div>
           </div>
