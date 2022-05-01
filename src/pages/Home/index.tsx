@@ -1,4 +1,4 @@
-import { useLayoutEffect } from 'react';
+import { useLayoutEffect, useState } from 'react';
 import Market from '../Market';
 import Card from '../Card';
 import { ReactComponent as Logo } from '@/assets/logo.svg';
@@ -11,6 +11,7 @@ import { ReactComponent as Youtube } from '@/assets/youtube.svg';
 import { ReactComponent as Paper } from '@/assets/paper.svg';
 import styles from './index.less';
 const IndexPage = () => {
+  const [hide, setHide] = useState(false);
   useLayoutEffect(() => {
     var mySwiper = new Swiper('.swiper', {
       // direction: 'vertical', // 垂直切换选项
@@ -20,6 +21,11 @@ const IndexPage = () => {
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
+      },
+      on: {
+        slideChangeTransitionStart: function () {
+          setHide(this.activeIndex == 1);
+        },
       },
     });
   }, []);
@@ -60,28 +66,31 @@ const IndexPage = () => {
         </div>
         <div className="swiper-pagination"></div>
       </div>
-      <div
-        className="h11"
-        style={{
-          width: '100%',
-          display: 'flex',
-          justifyContent: 'center',
-          position: 'fixed',
-          bottom: '110px',
-          zIndex: '999999',
-        }}
-      >
-        <div className="h11">
-          <ul>
-            <li>
-              {/* <a href="#" data-text="The Most Efficient Banking Protocol">The Most Efficient Banking Protocol</a> */}
-              <span data-text="&nbsp;The&nbsp;Most&nbsp;Efficient&nbsp;Banking&nbsp;Protocol">
-                &nbsp;The&nbsp;Most&nbsp;Efficient&nbsp;Banking&nbsp;Protocol&nbsp;
-              </span>
-            </li>
-          </ul>
+      {!hide && (
+        <div
+          className="h11"
+          style={{
+            width: '100%',
+            display: 'flex',
+            justifyContent: 'center',
+            position: 'fixed',
+            bottom: '110px',
+            zIndex: '999999',
+          }}
+        >
+          <div className="h11">
+            <ul>
+              <li>
+                {/* <a href="#" data-text="The Most Efficient Banking Protocol">The Most Efficient Banking Protocol</a> */}
+                <span data-text="&nbsp;The&nbsp;Most&nbsp;Efficient&nbsp;Banking&nbsp;Protocol">
+                  &nbsp;The&nbsp;Most&nbsp;Efficient&nbsp;Banking&nbsp;Protocol&nbsp;
+                </span>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      )}
+
       <div className={styles.connect}>
         <a href="#" title="WhilePaper">
           <Paper />

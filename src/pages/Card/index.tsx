@@ -282,7 +282,7 @@ export default function IndexPage() {
     };
 
     var generateLines = function () {
-      for (var i = 0; i < 60; i++) {
+      for (var i = 0; i < 2; i++) {
         createCars(0.1, 10);
       }
     };
