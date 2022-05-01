@@ -41,12 +41,12 @@ export default function IndexPage() {
     var town = new THREE.Object3D();
 
     var createCarPos = true;
-    var uSpeed = 0.001;
+    var uSpeed = 0.0005;
 
     //----------------------------------------------------------------- FOG background
 
     // var setcolor = 0xF02050;
-    var setcolor = 0xffc000;
+    var setcolor = 0x18191c;
 
     //var setcolor = 0xF2F111;
     //var setcolor = 0xFF6347;
@@ -300,8 +300,8 @@ export default function IndexPage() {
       var time = Date.now() * 0.00005;
       requestAnimationFrame(animate);
 
-      city.rotation.y -= (mouse.x * 8 - camera.rotation.y) * uSpeed;
-      city.rotation.x -= (-(mouse.y * 2) - camera.rotation.x) * uSpeed;
+      city.rotation.y -= (1 * 8 - camera.rotation.y) * uSpeed;
+      city.rotation.x -= (-(1 * 2) - camera.rotation.x) * uSpeed;
       if (city.rotation.x < -0.05) city.rotation.x = -0.05;
       else if (city.rotation.x > 1) city.rotation.x = 1;
       var cityRotation = Math.sin(Date.now() / 5000) * 13;

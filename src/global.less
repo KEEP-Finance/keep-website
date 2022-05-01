@@ -23,7 +23,20 @@ html {
   overflow: hidden;
   font-family: 'Merriweather', serif;
 }
-
+.swiper-pagination {
+  position: fixed !important;
+  bottom: 10% !important;
+}
+.swiper-pagination-bullet {
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 50% !important;
+  border: 2px solid #fff !important;
+  margin-left: 10px !important;
+}
+.swiper {
+  --swiper-pagination-color: #ffc000; /* 两种都可以 */
+}
 .h11 {
   position: absolute;
   // color: white;
@@ -124,32 +137,33 @@ ul li span:hover::before {
 }
 
 .fill {
-  --color: #232323;
-  --hover: #ffffff;
+  --color: #ffc000;
+  --hover: #ffc000;
   position: absolute;
   z-index: 2;
   right: 30px;
   top: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Ubuntu';
 }
 
 button {
   color: var(--color);
   transition: 0.25s;
-}
-
-button:hover,
-button:focus {
-  border-color: #ffffff;
-  color: #232323;
+  &:hover,
+  &:focus {
+    border-color: var(--hover);
+    color: #232323;
+  }
 }
 
 button {
   background: none;
-  border: 2px solid #ffffff;
+  border: 2px solid var(--color);
   font: inherit;
   line-height: 1;
-  margin: 0.5em;
-  padding: 1em 2em;
+  padding: 10px 15px;
 }
 
 h1 {
