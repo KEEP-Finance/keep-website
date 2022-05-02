@@ -1,6 +1,8 @@
 import styles from './index.less';
 import { ReactComponent as Market } from './market.svg';
+import { ReactComponent as MarketSmall } from './marketsmall.svg';
 import { useLayoutEffect } from 'react';
+import Media from 'react-media';
 export default function IndexPage() {
   useLayoutEffect(() => {
     jQuery(document).ready(function ($) {
@@ -62,7 +64,13 @@ export default function IndexPage() {
   }, []);
   return (
     <div className={styles.market}>
-      <Market />
+      <Media
+        queries={{
+          big: '(max-width: 600px)',
+        }}
+      >
+        {(matches) => (!matches.big && <Market />) || <MarketSmall />}
+      </Media>
     </div>
   );
 }

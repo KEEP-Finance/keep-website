@@ -25,7 +25,7 @@ html {
 }
 .swiper-pagination {
   position: fixed !important;
-  bottom: 50 !important;
+  bottom: 50px !important;
 }
 .swiper-pagination-bullet {
   width: 28px !important;
@@ -38,15 +38,18 @@ html {
   --swiper-pagination-color: #ffc000; /* 两种都可以 */
 }
 .h11 {
-  position: absolute;
-  // color: white;
-  bottom: -1%;
-  // width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 110px;
+  z-index: 999999;
   font-family: 'Merriweather', 'Ubuntu', serif;
 }
 
 ul {
   margin: 0 auto;
+  padding: 0;
 }
 
 ul li {
@@ -146,6 +149,33 @@ ul li span:hover::before {
   font-weight: bold;
   font-size: 18px;
   font-family: 'Ubuntu';
+}
+.logo {
+  width: 120px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  z-index: 99;
+}
+@media (max-width: 600px) {
+  .fill {
+    right: 30px;
+    top: 30px;
+  }
+  .logo {
+    left: 30px;
+    top: 30px;
+  }
+  .h11 {
+    bottom: 25%;
+  }
+  ul li span {
+    font-size: 14px;
+  }
+  .swiper-pagination {
+    position: fixed !important;
+    bottom: 10% !important;
+  }
 }
 
 button {
@@ -1072,21 +1102,21 @@ code {
 }
 @media (max-width: 1000px) {
   .blockauto {
-    height: 50%;
+    height: 30%;
   }
 }
 @media (max-width: 710px) {
   .blockauto {
-    height: 65%;
+    height: 30%;
   }
 }
 @media (max-width: 700px) {
   .blockauto {
-    height: 70%;
+    height: 30%;
   }
 }
 @media (max-width: 300px) {
   .blockauto {
-    height: 70%;
+    height: 30%;
   }
 }

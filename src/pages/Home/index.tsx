@@ -43,18 +43,8 @@ const IndexPage = () => {
           <path d="M140 482V320q0-10 10-18l238-158q12-8 24 0l238 158q9 6 10 19v158q0 10-10 19L412 656q-12 8-24 0L150 497q-9-6-10-15zm282-278v104l97 65 78-52zm-44 104V204L203 321l78 52zm-193 54v75l56-37zm193 234V492l-97-65-78 52zm22-143l79-53-79-53-79 53zm22 143l175-117-78-52-97 64v105zm193-159v-75l-56 38z" />
         </symbol>
       </svg>
-      <Logo
-        style={{
-          width: '120px',
-          position: 'absolute',
-          top: '50px',
-          left: '100px',
-          zIndex: 99,
-        }}
-      />
-      <button className="fill" onClick={() => swiper.slideNext()}>
-        GET STARTED
-      </button>
+      <Logo className="logo" />
+      <button className="fill">GET STARTED</button>
       <div className="swiper">
         <div className="swiper-wrapper">
           <div className="swiper-slide">
@@ -67,27 +57,14 @@ const IndexPage = () => {
         <div className="swiper-pagination"></div>
       </div>
       {!hide && (
-        <div
-          className="h11"
-          style={{
-            width: '100%',
-            display: 'flex',
-            justifyContent: 'center',
-            position: 'fixed',
-            bottom: '110px',
-            zIndex: '999999',
-          }}
-        >
-          <div className="h11">
-            <ul>
-              <li>
-                {/* <a href="#" data-text="The Most Efficient Banking Protocol">The Most Efficient Banking Protocol</a> */}
-                <span data-text="&nbsp;The&nbsp;Most&nbsp;Efficient&nbsp;Banking&nbsp;Protocol">
-                  &nbsp;The&nbsp;Most&nbsp;Efficient&nbsp;Banking&nbsp;Protocol&nbsp;
-                </span>
-              </li>
-            </ul>
-          </div>
+        <div className="h11">
+          <ul>
+            <li>
+              <span data-text="&nbsp;The&nbsp;Most&nbsp;Efficient&nbsp;Banking&nbsp;Protocol">
+                &nbsp;The&nbsp;Most&nbsp;Efficient&nbsp;Banking&nbsp;Protocol&nbsp;
+              </span>
+            </li>
+          </ul>
         </div>
       )}
 
