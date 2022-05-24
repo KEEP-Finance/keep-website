@@ -342,8 +342,13 @@ export default function IndexPage() {
                   <strong>Decentralized Lending and Borrowing</strong>
                 </h1>
                 <p className="small">
-                  <span>——</span> Keep Profitable by Algorithmic Market
-                  Operations <span>——</span>
+                  <div style={{ background: 'rgba(80, 175, 149,0.3)' }}>
+                    Main/Isolated Pools
+                  </div>
+                  <div>Automatic Leverage</div>
+                  <div style={{ background: 'rgba(39, 117, 202,0.3)' }}>
+                    Algorithmic Market Operations
+                  </div>
                 </p>
               </div>
             </div>

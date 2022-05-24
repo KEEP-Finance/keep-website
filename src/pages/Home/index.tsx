@@ -60,8 +60,8 @@ const IndexPage = () => {
         <div className="h11">
           <ul>
             <li>
-              <span data-text="&nbsp;The&nbsp;Most&nbsp;Efficient&nbsp;Banking&nbsp;Protocol">
-                &nbsp;The&nbsp;Most&nbsp;Efficient&nbsp;Banking&nbsp;Protocol&nbsp;
+              <span data-text="&nbsp;&nbsp;The&nbsp;Most&nbsp;Efficient&nbsp;Banking&nbsp;Protocol">
+                &nbsp;&nbsp;The&nbsp;Most&nbsp;Efficient&nbsp;Banking&nbsp;Protocol&nbsp;
               </span>
             </li>
           </ul>

@@ -7,7 +7,10 @@
   font-family: Narziss-medium;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
 }
-
+@font-face {
+  font-family: 'Karla';
+  src: url('/Karla-Light.ttf') format('truetype');
+}
 *,
 *::after,
 *::before {
@@ -16,7 +19,7 @@
 
 body,
 html {
-  background: #18191c;
+  background: rgba(0, 0, 0, 0.75);
   font-size: 6px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -28,14 +31,15 @@ html {
   bottom: 50px !important;
 }
 .swiper-pagination-bullet {
-  width: 28px !important;
-  height: 28px !important;
+  width: 32px !important;
+  height: 32px !important;
   border-radius: 50% !important;
-  border: 2px solid #fff !important;
+  border: 3px solid #fff !important;
   margin-left: 10px !important;
+  opacity: 1 !important;
 }
 .swiper {
-  --swiper-pagination-color: #ffc000; /* 两种都可以 */
+  --swiper-pagination-color: #ffffff; /* 两种都可以 */
 }
 .h11 {
   width: 100%;
