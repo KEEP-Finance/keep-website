@@ -44,7 +44,7 @@ const IndexPage = () => {
         </symbol>
       </svg>
       <Logo className="logo" />
-      <button className="fill">GET STARTED</button>
+      <button className="fill" onClick={()=>window.open('https://app.keep.finance/')}>GET STARTED</button>
       <div className="swiper">
         <div className="swiper-wrapper">
           <div className="swiper-slide">
