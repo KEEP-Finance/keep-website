@@ -339,15 +339,15 @@ export default function IndexPage() {
             <div className="row">
               <div className="col">
                 <h1>
-                  <strong>Decentralized Lending and Borrowing</strong>
+                  <strong>Decentralized Lending and Trading</strong>
                 </h1>
                 <p className="small">
                   <div style={{ background: 'rgba(80, 175, 149,0.3)' }}>
-                    Main/Isolated Pools
+                  Secure Pools
                   </div>
-                  <div>Automatic Leverage</div>
+                  <div>Margin Trading</div>
                   <div style={{ background: 'rgba(39, 117, 202,0.3)' }}>
-                    Algorithmic Market Operations
+                    Interest Rate Rrading
                   </div>
                 </p>
               </div>
