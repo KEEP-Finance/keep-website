@@ -43,8 +43,16 @@ const IndexPage = () => {
           <path d="M140 482V320q0-10 10-18l238-158q12-8 24 0l238 158q9 6 10 19v158q0 10-10 19L412 656q-12 8-24 0L150 497q-9-6-10-15zm282-278v104l97 65 78-52zm-44 104V204L203 321l78 52zm-193 54v75l56-37zm193 234V492l-97-65-78 52zm22-143l79-53-79-53-79 53zm22 143l175-117-78-52-97 64v105zm193-159v-75l-56 38z" />
         </symbol>
       </svg>
-      <Logo className="logo" />
-      <button className="fill" style={{cursor:'pointer'}} onClick={()=>window.open('https://app.keep.finance/')}>GET STARTED</button>
+      <div className='customheader'>
+        <Logo className="logo" />
+        <div  onClick={() => window.open('https://app.keep.finance/')} className="appbtn">
+          <div className="gets">Get started</div>
+          <div className="transition-all">
+            <svg className="fill-current" width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg"><path d="M16.5 8.41992C16.5 8.20554 16.4052 8.00831 16.2329 7.84538L10.5118 2.16003C10.3395 1.9971 10.1586 1.91992 9.9518 1.91992C9.52962 1.91992 9.19359 2.22863 9.19359 2.65739C9.19359 2.86319 9.27114 3.069 9.40899 3.19763L11.339 5.15277L14.2426 7.78536L12.1575 7.65673L1.25821 7.65673C0.810178 7.65673 0.500001 7.97401 0.500001 8.41992C0.500001 8.86583 0.810178 9.18311 1.25821 9.18311L12.1575 9.18311L14.234 9.05449L11.339 11.6871L9.40899 13.6422C9.27114 13.7794 9.19359 13.9767 9.19359 14.1825C9.19359 14.6112 9.52962 14.9199 9.9518 14.9199C10.1586 14.9199 10.3395 14.8513 10.5291 14.6627L16.2329 8.99446C16.4052 8.83153 16.5 8.6343 16.5 8.41992Z"></path></svg>
+          </div>
+        </div>
+        {/* <button className="fill" style={{ cursor: 'pointer' }} onClick={() => window.open('https://app.keep.finance/')}>GET STARTED</button> */}
+      </div>
       <div className="swiper">
         <div className="swiper-wrapper">
           <div className="swiper-slide">
