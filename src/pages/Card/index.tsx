@@ -347,7 +347,7 @@ export default function IndexPage() {
                   </div>
                   <div>Margin Trading</div>
                   <div style={{ background: 'rgba(39, 117, 202,0.3)' }}>
-                    Interest Rate Rrading
+                    Interest Rate Trading
                   </div>
                 </p>
               </div>
