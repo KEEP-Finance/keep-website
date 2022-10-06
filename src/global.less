@@ -1181,9 +1181,14 @@ code {
   display: flex;
   position: fixed;
   width: 100%;
-  height: 65px;
+  height: 64px;
   align-items: center;
   justify-content: space-between;
-  padding: 0 90px;
+  padding: 0 150px;
   z-index: 999;
+}
+@media (max-width: 700px) {
+  .customheader {
+    padding: 0 30px;
+  }
 }
