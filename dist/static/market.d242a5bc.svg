@@ -187,7 +187,7 @@
 	<rect x="301.2568" y="385.2842" class="st2" width="1.9307" height="32.2637"/>
 	<rect x="295.3564" y="393.6924" class="st2" width="1.751" height="23.8555"/>
 	<rect x="301.0195" y="436.0332" class="st59" width="11.4014" height="309.7822"/>
-	<g>
+	<!-- <g>
 		<defs>
 			<path id="SVGID_1_" d="M308.4434,414.6411c0,0,41.9033,35.3354,46.3525,131.2876c4.4492,95.9512,6.6074,199.9111,6.6074,199.9111
 				h-52.96C308.4434,745.8398,308.4434,413.7212,308.4434,414.6411z"/>
@@ -247,7 +247,7 @@
 			C308.4199,721.9619,308.4639,723.4941,308.4434,724.9619z"/>
 		<path class="st0" d="M308.4434,737.8418h2.502c0.4287-1.377,0.9063-2.916,1.4297-4.5996h-3.9316
 			C308.4189,734.9355,308.4629,736.4678,308.4434,737.8418z"/>
-	</g>
+	</g> -->
 	<rect x="288.5674" y="414.0039" class="st56" width="14.9854" height="331.8115"/>
 	<rect x="288.5674" y="418.7295" class="st59" width="9.9541" height="9.5352"/>
 	<rect x="288.5674" y="431.916" class="st59" width="9.9541" height="9.5352"/>
@@ -2204,7 +2204,7 @@
 <g id="Icons">
 
 
-	<circle class="icon-circle-first" opacity="0.2" fill="#F9BE03" cx="240.301" cy="366.13" r="35"/>
+	<circle class="icon-circle-first" opacity="0.2" fill="#B5B3B3" cx="240.301" cy="366.13" r="35"/>
 	<circle class="icon-circle-first" opacity="1" fill="#2775ca" cx="1077.128" cy="329.968" r="35"/>
 	<circle class="icon-circle-first" opacity="0.2" fill="#8ECE29" cx="483.63" cy="268.584" r="35"/>
 	<circle class="icon-circle-first" opacity="0.2" fill="#50af95" cx="756.634" cy="254.966" r="35"/>
@@ -2219,7 +2219,7 @@
 	<circle class="icon-circle-first" opacity="0.2" fill="#F73E26" cx="977.848" cy="308.062" r="35"/>
 	<circle class="icon-circle-first" opacity="0.2" fill="#5D7C93" cx="345.669" cy="305.963" r="35"/>
 
-	<circle class="icon-circle banking" opacity="0.2" fill="#F9BE03" cx="240.301" cy="366.13" r="35"/>
+	<circle class="icon-circle banking" opacity="0.2" fill="#B5B3B3" cx="240.301" cy="366.13" r="35"/>
 	<circle class="icon-circle transport" opacity="0.2" fill="#575756" cx="1077.128" cy="329.968" r="35"/>
 	<circle class="icon-circle gesundheit" opacity="0.2" fill="#8ECE29" cx="483.63" cy="268.584" r="35"/>
 	<circle class="icon-circle luftfahrt" opacity="0.2" fill="#23BCF9" cx="756.634" cy="254.966" r="35"/>
@@ -2562,7 +2562,7 @@
 			c0,1.3086,0.2998,2.3032,0.8975,2.9849c0.5986,0.6807,1.459,1.0215,2.582,1.0215c0.5664,0,1.1719-0.0708,1.8164-0.2124v-2.7612
 			h-2.2197V314.0884z"/>
 	</g> -->
-	 <text x="201.874" y="321.1885" opacity="0.2" fill="#F9BE03">ETH</text>
+	 <text x="201.874" y="321.1885" opacity="0.2" fill="#E6E6E5">ETH</text>
 	 <text x="1120.1221" y="280.8267" fill="#2775ca">USDC</text>
 
 
